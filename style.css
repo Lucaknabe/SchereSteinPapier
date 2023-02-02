@@ -34,18 +34,86 @@ body {
   background-color:lightsteelblue ;
 }
 
-#buttondiv {
-  display: flex;
-  flex-direction: row ;
-  margin: 20px;
+
+
+
+ #buttondiv{
+  display:flex;
+  flex-direction: row;
+ }
+
+ #Schere{
+  background-color: white;
+  color:black;
+  margin: 30px;
+  font-size: 45px;
+  border: 1px solid black;
+  width: 275px;
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+}
+#Schere:hover{
+  background-color:rgb(49, 43, 43);
+  color:whitesmoke
+
+}
+
+
+
+#Stein{
+  margin: 30px;
+  font-size: 45px;
+  border: 1px solid black;
+  width: 275px;
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+}
+
+#Stein:hover{
+  background-color:rgb(49, 43, 43);
+  color:white
+}
+
+#Papier{
+  margin: 30px;
+  font-size: 45px;
+  border: 1px solid black;
+  width: 275px;
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+}
+
+#Papier:hover{
+  background-color:rgb(49, 43, 43);
+  color:white
+}
+
+#Papier:focus{
+  background-color: green;
+}
+#Stein:focus{
+  background-color: green;
+}
+#Schere:focus{
+  background-color:green
+}
+
+#Schere{
+  border-color: green;
+}
+
+#gewinnerdiv {
+  font-size: 175%;
+  margin:30px;
+  font-size:47px;
+  font-family: serif;
 }
 
 #wahldiv {
   font-size: 175%;
-}
-
-#wahldiv {
-  font-size: 175%;
+  margin:30px;
+  font-size: 45px;
+  font-family: "Papyrus";
 }
 
 h1 {

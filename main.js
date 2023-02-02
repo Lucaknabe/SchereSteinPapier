@@ -19,7 +19,7 @@ function playRound(spielerEingabe) {
   console.log(randomNumber);
   if (randomNumber === 0) {
     console.log("Gegner hat Schere gewählt");
-    document.getElementById("wahl").innerHTML = "Gegner hat Schere gewählt"
+    document.getElementById("wahl").innerHTML = "Gegner hat Schere gewählt";
   }
   else if (randomNumber === 1) {
     console.log("Gegner hat Stein gewählt");
@@ -41,11 +41,11 @@ function playRound(spielerEingabe) {
   }
   else if((randomNumber === 0 && spielerEingabe === 1) || (randomNumber === 1 && spielerEingabe === 2) || (randomNumber === 2 && spielerEingabe === 0)   ) {
     console.log("Du hast gewonnen!");
-    document.getElementById("gewinner").innerHTML = "Du hast gewonnen"
+    document.getElementById("gewinner").innerHTML = "... und du hast gewonnen"
   } 
   else {
     console.log("Computer hat gewonnen!")
-    document.getElementById("gewinner").innerHTML = "Computer hat gewonnen"
+    document.getElementById("gewinner").innerHTML = "... und der Computer hat gewonnen"
   }
   
   
